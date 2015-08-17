@@ -8,3 +8,5 @@ Towers of Hanoi
 * On ANSI terminal
 
 	`towers_of_hanoi.c`
+
+The algorithm is from https://www.jstor.org/stable/2322448.
