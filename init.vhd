@@ -17,6 +17,7 @@ begin
 		elsif rising_edge(clk) then
 			if ff1 ?= '0' then
 				ff1 <= '1';
+				reset <= '0';
 			elsif ff2 ?= '0' then
 				ff2 <= '1';
 				reset <= '1';
