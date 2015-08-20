@@ -24,7 +24,6 @@ begin
 	right:
 	for d in bcd_digits(bin_width)-1 downto 1 generate
 		signal tmp: disp7seg_t;
-		signal suppress: boolean;
 	begin
 		display: entity work.bcd_to_7seg port map (bcd(4*d+3 downto 4*d), tmp);
 
